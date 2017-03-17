@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>Ionic App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <!--code push相关-->
+    <!--<meta http-equiv="Content-Security-Policy" content="default-src https://codepush.azurewebsites.net 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *" />-->
+    <!-- start Dplus -->
+   <!-- <script type="text/javascript">!function(a,b){if(!b.__SV){var c,d,e,f;window.dplus=b,b._i=[],b.init=function(a,c,d){function g(a,b){var c=b.split(".");2==c.length&&(a=a[c[0]],b=c[1]),a[b]=function(){a.push([b].concat(Array.prototype.slice.call(arguments,0)))}}var h=b;for("undefined"!=typeof d?h=b[d]=[]:d="dplus",h.people=h.people||[],h.toString=function(a){var b="dplus";return"dplus"!==d&&(b+="."+d),a||(b+=" (stub)"),b},h.people.toString=function(){return h.toString(1)+".people (stub)"},e="disable track track_links track_forms register unregister get_property identify clear set_config get_config get_distinct_id track_pageview register_once track_with_tag time_event people.set people.unset people.delete_user".split(" "),f=0;f<e.length;f++)g(h,e[f]);b._i.push([a,c,d])},b.__SV=1.1,c=a.createElement("script"),c.type="text/javascript",c.charset="utf-8",c.async=!0,c.src="http://w.cnzz.com/dplus.php?token=1516b56f536735ef9c3c",d=a.getElementsByTagName("script")[0],d.parentNode.insertBefore(c,d)}}(document,window.dplus||[]),dplus.init("1516b56f536735ef9c3c");</script>-->
+    <!-- end Dplus -->
+    <link rel="icon" type="image/x-icon" href="assets/icon/favicon.ico">
+    <link rel="manifest" href="assets/manifest.json">
+    <link href="assets/opensource/bootstrap/bootstrap.min.css" rel="stylesheet">
+
+    <!--<link href="assets/opensource/bootstrap/bootstrap-switch.min.css" rel="stylesheet">-->
+    <meta name="theme-color" content="#333333">
+
+    <!-- un-comment this code to enable service worker
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('service-worker.js')
+          .then(() => console.log('service worker installed'))
+          .catch(err => console.log('Error', err));
+      }
+    </script>-->
+
+    <link href="build/main.css" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- Ionic's root component and where the app will load -->
+<ion-app></ion-app>
+<!-- cordova.js required for cordova apps -->
+<script src="cordova.js"></script>
+<!-- The polyfills js is generated during the build process -->
+<script src="build/polyfills.js"></script>
+<!-- The bundle js is generated during the build process -->
+<script src="build/main.js"></script>
+<!--jq相关-->
+<script src="assets/opensource/jquery-2.1.4.min.js"></script>
+<script src="assets/opensource/jquery.jplayer.min.js"></script>
+<!--bootstrap-->
+<script src="assets/opensource/bootstrap/bootstrap.min.js"></script>
+<script src="assets/opensource/jquery.fly.min.js"></script>
+</body>
+</html>
